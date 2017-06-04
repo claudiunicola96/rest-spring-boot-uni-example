@@ -92,35 +92,6 @@ function save() {
             fillTable();
         });
     });
-
-    // $.ajax({
-    //     url: uri + raceId,
-    //     type: "PUT",
-    //     data: JSON.stringify({
-    //         id: raceId,
-    //         name: $("#name").val(),
-    //         capacity: $("#capacity").val(),
-    //         countParticipants: $("#participants").val()
-    //     }),
-    //     contentType: "application/json",
-    // }).done(function () {
-    //     alert("Success");
-    //     fillTable();
-    // });
-    // $.ajax({
-    //     url: uri,
-    //     type: "POST",
-    //     data: JSON.stringify({
-    //         id: raceId,
-    //         name: $("#name").val(),
-    //         capacity: $("#capacity").val(),
-    //         countParticipants: $("#participants").val()
-    //     }),
-    //     contentType: "application/json",
-    // }).done(function () {
-    //     alert("Success");
-    //     fillTable();
-    // });
 }
 
 
